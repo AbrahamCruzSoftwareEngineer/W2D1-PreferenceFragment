@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/info_id"
+        android:title="Settings"
+        android:icon="@mipmap/ic_account_circle_white_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_face_black_24dp"
+                android:title="Edwin">
+
+            </item>
+            <item
+                android:icon="@mipmap/ic_face_black_24dp"
+                android:title="Dani">
+
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/proff_id"
+        android:title="Profile"
+        android:icon="@mipmap/ic_settings_white_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:icon="@mipmap/ic_camera_alt_black_24dp"
+                android:title="Set1">
+
+            </item>
+            <item
+                android:icon="@mipmap/ic_today_black_24dp"
+                android:title="Set2">
+
+            </item>
+        </menu>
+    </item>
+</menu>
